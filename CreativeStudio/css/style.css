@@ -1,0 +1,569 @@
+/**************************************/
+/*345678901234567890123456789012345678*/
+/*       1         2         3        */
+/**************************************/
+/* Soraya povedsano                   */
+/* 2025                               */
+/**************************************/
+/**************************************/
+/* #0. reset                          */
+/* #1. Google Fonts                   */
+/* #2. container                      */
+/* #3. header                         */
+/* #4. nav                            */
+/* #5. logo                           */
+/* #6. alfa                           */
+/* #7. pie                            */
+/* #8. medio                          */
+/* #9. beta                           */
+/* #10. gamma                         */
+/* #11. delta                         */
+/* #12. epsilon                       */
+/* #13. dseta                         */
+/* #14. eta                           */
+/**************************************/
+/* #0. reset                          */
+/**************************************/
+
+/**************************************/
+/* #1. Google Fonts                   */
+/* Barlow Condensed                   */
+/* Designed by Jeremy Tribby          */
+/* (Poppins) ( Raleway )              */
+/**************************************/
+/* Bootstrap Icons                    */
+
+
+/* #1. Google Fonts                   */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Bootstrap Icons                    */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+*{
+    outline: 1px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Condensed", sans-serif;
+
+}
+
+/* #2. container */
+.container {
+    width: 100%;
+    height: inherit;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* @MEDIA 992 px*/
+
+
+
+@media (min-width: 992px) {
+    
+    /* #3. header */
+    header .container {
+        display: flex;
+        flex-direction: column; /* Cambia la dirección a columna en móviles */
+        align-items: flex-start;
+        padding-top: 1rem; /* Reduce el padding superior */
+    }
+
+    /* #4. nav */
+    nav ul {
+        gap: 1rem; /* Reduce el espacio entre elementos del menú */
+    }
+
+    nav ul li a {
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+    }
+
+    /* #05. logo */
+    .logo {
+        font-size: 1.2rem; /* Reduce el tamaño del logo */
+    }
+}
+
+/* @MEDIA 991 px*/
+@media (max-width: 991px) {
+    .medio .fila {
+        font-size: 6rem; /* Reduce el tamaño de la fuente */
+        letter-spacing: 2px; /* Ajusta el espaciado */
+    }
+
+    .medio .parrafo {
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+        margin-right: 1rem; /* Reduce el margen */
+    }
+
+    .beta {
+        height: auto; /* Cambia a altura automática */
+        padding-top: 10%; /* Reduce el padding superior */
+        padding-bottom: 5%; /* Reduce el padding inferior */
+    }
+
+    .beta .cards {
+        flex-direction: column; /* Cambia la dirección a columna */
+        height: auto; /* Altura automática */
+    }
+
+    .beta .cards .card {
+        margin-bottom: 1rem; /* Añade margen inferior */
+    }
+
+    .gamma {
+        height: auto; /* Cambia a altura automática */
+    }
+
+    .gamma .container .arriba p {
+        font-size: 4rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .gamma .container .abajo {
+        flex-direction: column; /* Cambia la dirección a columna */
+    }
+
+    .gamma .container .abajo .abajo-derecha h3 {
+        font-size: 1.5rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .gamma .container .abajo .abajo-derecha p {
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .delta {
+        height: 50vh; /* Reduce la altura */
+    }
+
+    .delta .container h3 {
+        font-size: 3rem; /* Reduce el tamaño de la fuente */
+        -webkit-text-stroke: 1px #000; /* Reduce el grosor del borde */
+    }
+
+    .epsilon .container .noticias .titulo-noticias h3 {
+        font-size: 4rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .epsilon .container .noticias .noticia .noticia-izquierda {
+        font-size: 2rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .epsilon .container .noticias .noticia .noticia-derecha {
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .epsilon .container .noticias .pie-noticias p {
+        font-size: 1.2rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .dseta .container .banner {
+        font-size: 4rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .dseta .container .pie-banner {
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .eta {
+        height: auto; /* Cambia a altura automática */
+        padding-bottom: 2rem; /* Reduce el padding inferior */
+    }
+
+    .eta .container {
+        flex-direction: column; /* Cambia la dirección a columna */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .eta .container p {
+        font-size: 1rem; /* Reduce el tamaño de la fuente */
+    }
+}
+
+
+
+/* @MEDIA 1200px px*/
+@media(min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media(min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+
+
+/* #3. header */
+
+header .container {
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 3rem;
+}
+
+/* #4. nav */
+
+nav ul {
+    display: flex;
+    box-sizing: border-box;
+    padding: 1rem;
+    gap: 4rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.4rem;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.2rem;
+}
+
+nav ul li:first-child a {
+    border-bottom: 1px solid #000;
+}
+
+/* #05. logo */
+
+header .container .logo {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* #6. alfa */ 
+
+.alfa {
+    height: 100vh;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* #7. pie */
+
+.pie {
+    box-sizing: border-box;
+    padding: 4rem 0;
+
+}
+
+.pie .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie .container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pie .container a i {
+    margin-left: 2rem;
+}
+
+.pie .container h3 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*#8. medio */
+
+.medio .pafila {
+    display: flex;
+    align-items: center;
+}
+
+.medio .fila {
+    text-transform: uppercase;
+    font-size:  14rem;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.medio .parrafo {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    margin-right: 5rem;
+    text-transform: uppercase;
+}
+
+/*#9. beta*/
+
+.beta {
+    height: 100vh;
+    background: #eee;
+    box-sizing: border-box;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.beta .cards {
+    height: 60vh;
+    display: flex;
+    gap: 1rem;
+}
+
+.beta .cards .card {
+    background: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.beta .cards .card .foto {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.beta .cards .card:nth-child(1) .foto {
+    background-image: url(https://images.unsplash.com/photo-1552526881-5517a57b6d4a);
+}
+
+.beta .cards .card:nth-child(2) .foto {
+    background-image: url(https://images.unsplash.com/photo-1555412654-72a95a495858);
+}
+
+.beta .cards .card:nth-child(3) .foto {
+    background-image: url(https://images.unsplash.com/photo-1605710061683-842a071666dc);
+}
+
+.beta .cards .card:nth-child(4) .foto {
+    background-image: url(https://images.unsplash.com/photo-1613216512748-39895e7e9675);
+}
+
+.beta .cards .card .decards {
+    height: 4rem;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*#10. gamma */ 
+
+.gamma  {
+    height: 100vh;
+    background: #eee;
+}
+
+.gamma .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gamma .container .arriba  {
+    flex: 3;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.gamma .container .arriba p {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 8rem;
+}
+
+.gamma .container .abajo {
+    flex: 1;
+    display: flex;
+}
+
+.gamma .container .abajo .abajo-izquierda {
+    flex: 1;
+}
+
+.gamma .container .abajo .abajo-derecha {
+    flex: 1;
+}
+
+.gamma .container .abajo .abajo-derecha h3 {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.gamma .container .abajo .abajo-derecha p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+/* #11. delta */
+
+.delta {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd);
+}
+
+.delta .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delta.container h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    width: 90%;
+    font-size: 7rem;
+    text-align: center;
+    -webkit-text-stroke: 3px #000;
+}
+
+/* #12. epsilon */
+
+.epsilon {
+    background: #eee;
+}
+
+.epsilon .container .noticias {
+    box-sizing: border-box;
+    padding: 3rem 0;
+}
+
+.epsilon .container .noticias .titulo-noticias {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.epsilon .container .noticias .titulo-noticias p {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.epsilon .container .noticias .titulo-noticias h3 {
+    text-transform: uppercase;
+    font-size: 8.2rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 4rem 0;
+}
+
+.epsilon .container .noticias .noticia {
+    box-sizing: border-box;
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.epsilon .container .noticias .noticia .noticia-izquierda {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+.epsilon .container .noticias .noticia .noticia-derecha {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.epsilon .container .noticias .pie-noticias {
+    box-sizing: border-box;
+    padding: 5rem 0;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.epsilon .container .noticias .pie-noticias p {
+    width: 50%;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.epsilon .container .noticias .pie-noticias a {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    background: #000;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+}
+
+/* #13. dseta */
+
+.dseta {
+    background: #eee;
+}
+
+.dseta .container .banner {
+    text-transform: uppercase;
+    font-size: 10rem;
+    padding: 2rem 0;
+}
+
+.dseta .container .pie-banner {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2rem;
+}
+
+/* #14. eta */
+
+.eta {
+    background: #eee;
+    height: 14rem;
+    padding-bottom: 4rem;
+}
+
+.eta .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.eta .container p {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.eta .container p:first-child i {
+    margin-right: 3rem;
+}
+
+.eta .container p:last-child i {
+    margin-left: 3rem;
+}
