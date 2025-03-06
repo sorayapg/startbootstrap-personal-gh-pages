@@ -67,7 +67,7 @@ body {
 
 /* @MEDIA 767 px*/
 
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     /*#9. beta*/
     .beta {
         height: auto;
@@ -177,7 +177,7 @@ body {
 }
 
 /* @MEDIA 991 px*/
-@media (max-width: 991px) {
+@media (min-width: 991px) {
     .medio .fila {
         font-size: 6rem; /* Reduce el tamaño de la fuente */
         letter-spacing: 2px; /* Ajusta el espaciado */
@@ -236,8 +236,8 @@ body {
         font-size: 4rem; /* Reduce el tamaño de la fuente */
     }
 
-    .epsilon .container .noticias .noticia .noticia-izquierda {
-        font-size: 2rem; /* Reduce el tamaño de la fuente */
+    .epsilon .container .noticias .noticia .noticia-izquierda p{
+        font-size: 8rem; /* Reduce el tamaño de la fuente */
     }
 
     .epsilon .container .noticias .noticia .noticia-derecha {
@@ -367,7 +367,7 @@ body {
         font-size: 10rem; /* Aumenta el tamaño de la fuente */
     }
 
-    .epsilon .container .noticias .noticia .noticia-izquierda {
+    .epsilon .container .noticias .noticia .noticia-izquierda p{
         font-size: 6rem; /* Aumenta el tamaño de la fuente */
     }
 
