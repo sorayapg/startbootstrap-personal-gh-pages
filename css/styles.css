@@ -598,9 +598,13 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+  
 }
+
+
+
 
 .img-thumbnail {
   padding: 0.25rem;
